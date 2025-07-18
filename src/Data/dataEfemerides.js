@@ -1,7 +1,7 @@
 export default[
     {
         titulo: "Agasajo a los campeones",
-        imagen: "/img/Efemerides/Foto1.jpg",
+        imagen: "/img/Efemerides/Foto1.JPG",
         descripcion: "A las 21hs se realizaba un gran asado criollo para agasajar a los campeones del año 1958"
     },
     {

@@ -3,7 +3,7 @@ export default [
         fecha: "Fecha 5",
         escudoL: "/img/Escudos/ArgOeste.png",
         nombreL: "Argentino Oeste",
-        escudoV: "/img/Escudos/social.png",
+        escudoV: "/img/Escudos/SOCIAL.png",
         nombreV: "Social",
         detalle: "Domingo 27 de Julio 15:00hs" 
     },
