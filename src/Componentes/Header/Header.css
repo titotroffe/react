@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+header{
+    position: sticky;
+    top: 0; 
+    width: 100%;
+    background-color: #3c9e43;
+    margin: 0;
+    z-index: 1;
+    background-image: url(../../img/fondo.jpg);
+}
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    color: #ffffff;
+    text-shadow: 3px 3px 5px rgb(75, 90, 255);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0 0 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #00500c00;
+    text-shadow: 3px 3px 2px rgb(0, 0, 0);
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    transition: all 0.3s ease;
+    position: relative;
+    padding: 5px 10px;
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #d9efd8;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+nav ul li a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+nav ul li a:hover {
+    color: #d9efd8;
+}

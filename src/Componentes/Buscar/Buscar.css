@@ -1,0 +1,64 @@
+.buscador {
+    width: 100%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 2px solid #58ad53;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 20px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+.tabla-jugadores {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+table th {
+    background-color: #58ad53;
+    color: white;
+    text-decoration: underline;
+}
+
+tr{
+    &:hover{
+        background-color: rgba(14, 222, 222, 0.496);
+    }
+}
+
+.titulo-campania {
+    color: #58ad53;
+    margin: 20px 0px 10px 0px;
+    text-decoration: underline;
+}
+
+.buscador-input {
+    display: block;
+    margin: 0 auto 20px auto; 
+    width: 30%;
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid #58ad53;
+    font-size: 16px;
+    background-color: white; 
+    color: #333;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.4);
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.buscador-input:focus {
+    border-color: #3c8e39;
+}
+
+
+.buscador h2 {
+    text-align: center;
+    margin-bottom:  10px;
+    padding: 20px;
+}
+

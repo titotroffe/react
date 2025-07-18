@@ -1,0 +1,25 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.efemerides {
+    flex-basis: calc(65% - 20px);
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 2px solid #58ad53;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+.efemerides img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}

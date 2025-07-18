@@ -1,0 +1,87 @@
+.partidos {
+    flex-basis: calc(35% - 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    
+}
+
+.proxpartido, .ultpartido {
+    flex-basis: calc(50% - 10px);
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 2px solid #58ad53;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.equipos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.equipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+
+.equipo img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 5px;
+    filter: drop-shadow( 5px 5px 2px rgba(0, 0, 0, 0.5));
+
+}
+
+.local, .visitante, .golV, .golL {
+    font-weight: bold;
+    margin-top: 5px;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.resultado {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Botones {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Botones button {
+    background-color: #00b80fe5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Botones button:hover {
+    background-color: #007bff;
+    transform: scale(1.1);
+}
+
+.partidos h3 {
+    color: #036700;
+    font-size: 1.8rem;
+    font-family: "Pirata One", cursive;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+}

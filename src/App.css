@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-margin-top: 170px;
+}
+
+body {
+  font-family: "Special Elite", cursive;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(126, 247, 132);
+  
+}
+
+#root {
+  font-family: "Special Elite", cursive;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 10px;
+}
+
+h2 {
+  color: #036700;
+  border-bottom: 1px solid #58ad53;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-family: "Pirata One", cursive;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.productos-oficiales{
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  max-width: 100%;
+  margin-left:0px;
+  margin-right: -1px;
+  background-color: #ffffff;
+  border: 2px solid #58ad53;
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s;
+}
